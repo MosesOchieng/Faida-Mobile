@@ -1,13 +1,10 @@
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-public class UserRegistrationRequest {
+import org.springframework.data.jpa.repository.JpaRepository;
+public class ShopDetailsRequest {
     private String phoneNumber;
-    private String otp;
-    private String username;
-    private String email;
+    private String shopName;
+    private String shopLocation;
 
     // Getters and setters
 }
-
-

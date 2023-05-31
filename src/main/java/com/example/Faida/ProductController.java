@@ -1,5 +1,10 @@
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+
 @RestController
-@RequestMapping("/api/products")
+@RequestMapping
+("/api/products")
 public class ProductController {
     private final ProductRepository productRepository;
     private final UserRepository userRepository;
